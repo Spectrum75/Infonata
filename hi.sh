@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
+# Hardware Info (Part Of Infonata Script)
 echo -en '\n'
-# SPACE
-echo -e "\e[31mHardware Information:"
+echo -e "\e[7mHardware Information:\e[0m"
 echo -en '\n'
 inxi -Fxxx
 echo -en '\n'
-# SPACE
 echo -en '\n'
+# End
