@@ -5,3 +5,7 @@ What is Infonata? it is a small utility to check a plethora of information relat
 
 
 # Project Status: BETA
+
+# Future Plans:
+- [ ] Add an install and uninstall script
+- [ ] Remove unwanted buttons and add `back` button when an option is selected
