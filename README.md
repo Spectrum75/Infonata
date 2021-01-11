@@ -3,8 +3,13 @@ What is Infonata? it is a small utility to check a plethora of information relat
 
 ![](https://github.com/spectrumgamer75/Infonata/blob/main/screenshot.png)
 
-# Project Status: BETA
+# Dependencies:
+* Wget
+* Neofetch
+* Lm-Sensors
+* Inxi
+* Dialog
 
-# Future Plans:
-- [ ] Add an install and uninstall script
-- [ ] Remove unwanted buttons and add `back` button when an option is selected
+Note: For checking the public ip address, an external service ipinfo.io is used. Link used in the scripts: ipinfo.io/ip
+
+More features and fixes may be added, so stay tuned :‑)
