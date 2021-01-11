@@ -11,7 +11,7 @@ What is Infonata? it is a small utility to check a plethora of information relat
 * Dialog
 
 # Note: 
-For checking the public ip address, an external service ipinfo.io is used. Link used in the scripts: ipinfo.io/ip
+For checking the public ip address, an [external service](http://ipinfo.io)is used. Link used in the scripts: http:ipinfo.io/ip/
 
 More features and fixes may be added, so stay tuned :smiley:
 
