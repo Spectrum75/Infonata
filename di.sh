@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# Distro information script (part of Infonata)
-echo -e "\e[31mDistro And Software Information:"
-# THESE SPACES ARE IMPORTANT FOR CORRECT DISTANCE BETWEEN THE OUTPUTS.
+# Distro information (Part Of Infonata)
+echo -e "\e[7mDistro And Software Information:\e[0m"
 echo -en '\n'
-# SPACE
 echo -en '\n'
-# SPACE
 neofetch
+# End
