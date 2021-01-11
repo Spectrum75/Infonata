@@ -1,2 +1,2 @@
 # Infonata
-A simple bash dialog with plethora of use!
+# Project status: BETA
