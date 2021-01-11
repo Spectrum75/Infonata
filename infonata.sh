@@ -19,7 +19,6 @@ CHOICE=$(dialog --clear \
 --backtitle "Welcome To The Infonata Script!" \
 --title "Menu" \
 --menu "Please Choose The Appropriate Option Below:" \
-
 $HEIGHT $WIDTH $CHOICE_HEIGHT \
 "${OPTIONS[@]}" \
 2>&1 >/dev/tty)
