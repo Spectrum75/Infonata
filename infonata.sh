@@ -30,10 +30,10 @@ user=$(eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk
 clear
 case $CHOICE in
         1)clear
-            $HOME/di.sh
+            $HOME/Infonata/di.sh
             ;;
         2)clear
-           $HOME/hi.sh
+           $HOME/Infonata/hi.sh
             ;;
         3)dialog --title "Your IP Adresses:" --msgbox "Local Adress: $ip Public Adress: $ip2
 
