@@ -18,6 +18,7 @@ OPTIONS=(1 "Check Your Distro Info"
 CHOICE=$(dialog --clear \
 --backtitle "Welcome To The Infonata Script!" \
 --title "Menu" \
+--no-cancel \
 --menu "Please Choose The Appropriate Option Below:" \
 $HEIGHT $WIDTH $CHOICE_HEIGHT \
 "${OPTIONS[@]}" \
@@ -29,10 +30,10 @@ user=$(eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk
 clear
 case $CHOICE in
         1)clear
-            $HOME/Infonata/di.sh
+            $HOME/"Infonata"/di.sh
             ;;
         2)clear
-           $HOME/Infonata/hi.sh
+           $HOME/"Infonata"/hi.sh
             ;;
         3)dialog --title "Your IP Adresses:" --msgbox "Local Adress: $ip Public Adress: $ip2
 
@@ -50,7 +51,7 @@ www.github.com/spectrumgamer75" 15 35 && clear
 ;;
 
 6)clear
- $HOME/all.sh
+ $HOME/"Infonata"/all.sh
 ;;
 
 7)dialog --title "User Accounts:" --msgbox "The following user accounts were found in the system:
