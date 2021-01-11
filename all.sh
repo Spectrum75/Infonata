@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs all commands at once.
+# Runs All Commands At Once (Part Of Infonata Script).
 # Variables:
 ip=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
 ip2=$(wget -qO- ipinfo.io/ip)
@@ -24,6 +24,7 @@ echo -en '\n'
 echo -e "\e[7mIP Addresses:\e[0m"
 echo "Local Adress: $ip"
 echo "Public Adress: $ip2" || error \e[31mUnable to get public IP, please check your internet connection...\e[0m
+echo -e "\e[1mPublic IP was checked with ipinfo.io\e[0m"
 echo -en '\n'
 echo -en '\n'
 echo -en '\n'
@@ -35,3 +36,4 @@ echo -en '\n'
 echo -en '\n'
 echo -e "\e[7mNormal User Accounts In The System:\e[0m
 $user"
+# End
